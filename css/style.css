@@ -1,0 +1,316 @@
+body {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #171717;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .75rem;
+  border-bottom: solid 1px #c6c6c6;
+}
+
+.product-title {
+  display: block;
+  margin: 1rem 0 1rem 1rem;
+}
+
+.product-title-text {
+  font: 1.25rem 'Lora', serif, Helvetica Neue, Helvetica;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-amount {
+  font-size: 1rem;
+  font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: #171717;
+  margin: 0.75rem 0rem 0rem 1rem;
+}
+
+.item-code {
+  font-size: 0.75rem;
+  font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #171717;
+  margin: 1rem 1rem 0rem 0rem;
+}
+
+.color-title {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.color-choose {
+  font-size: 0.75rem;
+  font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #171717;
+  margin: 1rem 0rem 0rem 1rem;
+}
+
+.color-button {
+  margin-bottom: 2rem;
+}
+
+.button-1 {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 6.25rem;
+  background-color: #000000;
+  border: solid 1px;
+  cursor: pointer;
+  margin: 1rem 0.75rem 0rem 1rem;
+}
+
+.button-2 {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 6.25rem;
+  background-color: #cfa880;
+  border: solid 1px transparent;
+  cursor: pointer;
+}
+
+.button-active {
+  border: solid 1px;
+}
+
+.line-short {
+  display: flex;
+  margin: 0rem 1rem 0rem 1rem;
+  border: 0;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.main-buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem 1rem 3rem 1rem;
+}
+
+.select-size-button {
+  font-size: 0.75rem;
+  font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
+  color:#fff;
+  width: 18rem;
+  height: 3rem;
+  background-color: #171717;
+  border: solid 1px #171717;
+  border-radius: 2px;
+}
+
+.find-store-button {
+    font-size: 0.75rem;
+    font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
+    color:#171717;
+    width: 18rem;
+    height: 3rem;
+    background-color: transparent;
+    border: solid 1px #999999;
+    border-radius: 2px;
+    margin: 1rem 0rem 0rem 0rem;
+  }
+
+  .help-size-button {
+  font-size: 0.75rem;
+  font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
+  color:#171717;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  padding: 0;
+  margin: 1.5rem 0rem 0rem 0rem;
+}
+
+.line-full {
+  display: flex;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin: 1.25rem 1rem 2rem 1rem;
+}
+
+.description-tag-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+    }
+
+.description-tag-title {
+  font-size: 1rem;
+  font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
+  color:#171717;
+  font-weight: 400;
+}
+
+.description-text {
+  font-size: 0.875rem;
+  font-family: 'Lora', Helvetica Neue, Helvetica, Arial, sans-serif;
+  color:#171717;
+  line-height: 1.5rem;
+  margin-top: 1.2rem;
+}
+
+.shipping-returns {
+  display: flex;
+  flex-direction: column;
+  margin: 1.25rem 1rem 1.25rem 1rem;
+}
+
+.shipping-tag-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+.shipping-tag-title {
+  font-size: 1rem;
+  font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
+  color:#171717;
+  font-weight: 400;
+}
+
+.related {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 1rem 0.7rem 1rem;
+}
+
+.related-title {
+  font-size: 1rem;
+  font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
+  color:#171717;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 1px #171717;
+}
+
+.related-products {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0.125rem;
+}
+
+.related-products-thumb {
+  flex-basis: 8rem;
+  text-decoration: none;
+  margin: 0rem 0.86rem 2rem;
+}
+
+.related-products-image {
+  display: block;
+  width: 130px;
+  height: 174px;
+}
+
+.related-product-sub {
+  display: flex;
+  font-size: 1rem;
+  font-family: 'Lora', Helvetica Neue, Helvetica, Arial, sans-serif;
+  color:#171717;
+  line-height: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.related-product-price {
+  font-size: 0.75rem;
+  font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
+  color:#999999;
+}
+
+.more {
+  display: flex;
+  flex-direction: row;
+  margin: 0rem 1rem 0.2rem 1rem;
+}
+
+.more-title {
+  font-size: 1rem;
+  font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
+  color:#171717;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 1px #171717;
+}
+
+.more-links {
+  display:block;
+  margin: 0rem 1rem 3.5rem 1rem;
+}
+
+.more-web-link {
+  display:block;
+  font-size: 0.875rem;
+  font-style: italic;
+  text-decoration: none;
+  font-family: 'Lora', Helvetica Neue, Helvetica, Arial, sans-serif;
+  color:#171717;
+  line-height: 2rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f3f3f3;
+  }
+
+.footer-container {
+  margin: 1.2rem 1rem 2rem 1rem;
+}
+
+.footer-button {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
+  color:#999999;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.footer-question {
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  font-size: 0.87rem;
+  line-height: 0.87rem;
+  text-decoration: none;
+  font-style: italic;
+  font-family: "Lora", serif, Helvetica Neue, Helvetica;
+  color: #171717;
+}
