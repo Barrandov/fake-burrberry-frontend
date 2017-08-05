@@ -14,7 +14,7 @@ body {
 
 @media only screen and (min-width: 48rem) {
   .header {
-    padding: 1.5rem 0rem 1.5rem 0rem;
+    padding: 1.5rem 0;
   }
 }
 
@@ -29,7 +29,7 @@ body {
 
 @media only screen and (min-width: 48rem) {
   .product__title {
-    margin: 1.5rem 0rem 1.5rem 0rem;
+    margin: 1.5rem 0;
     font-size: 1.5rem;
     font-family: 'Lora', serif, Helvetica Neue, Helvetica;
     line-height: 1.75rem;
@@ -151,9 +151,9 @@ body {
   background-color: #000;
 }
 
-.xs-width {
+.divider-product {
   display: flex;
-  margin: 0rem .5rem 0rem .5rem;
+  margin: 0 .5rem;
   border: 0;
   border-bottom: 1px solid #c6c6c6;
 }
@@ -164,19 +164,19 @@ body {
   }
 }
 
-.product__operations {
+.product__actions {
   display: flex;
   flex-direction: column;
   margin: 2rem .5rem 3rem .5rem;
 }
 
 @media only screen and (min-width: 48rem) {
-  .product__operations {
+  .product__actions {
     margin: 2rem 0rem 3rem 0rem;
   }
 }
 
-.product__operations-size {
+.product__actions-size {
   padding: 1rem 0rem 1rem 0rem;
   border: solid 1px #171717;
   border-radius: 2px;
@@ -188,7 +188,7 @@ body {
   line-height: 1.2;
 }
 
-.product__operations-find {
+.product__actions-find {
   margin: 1rem 0rem 0rem 0rem;
   padding: 1rem 0rem 1rem 0rem;
   border: solid 1px #999;
@@ -201,7 +201,7 @@ body {
   line-height: 1.2;
 }
 
-.product__operations-help {
+.product__actions-help {
   margin: 1.5rem 0rem 0rem 0rem;
   padding: 0;
   border: none;
@@ -213,7 +213,7 @@ body {
   line-height: 1.35;
 }
 
-.full-width {
+.divider-full-width {
   position: relative;
   right: 50%;
   left: 50%;
@@ -226,7 +226,7 @@ body {
 }
 
 @media only screen and (min-width: 48rem) {
-  .full-width {
+  .divider-full-width {
     display: none;
   }
 }
@@ -264,6 +264,12 @@ body {
 .product__description-button:after {
   content: url('../images/triangle-down.svg');
   transform: rotate(180deg);
+}
+
+@media only screen and (min-width: 48rem) {
+  .product__description-button:after {
+    display: none;
+  }
 }
 
 .product__description-text {
@@ -347,6 +353,7 @@ body {
 
   .product__delivery-image {
     vertical-align: middle;
+    width: 100%;
   }
 
   .product__delivery-title {
@@ -383,7 +390,7 @@ body {
 
 .product__related {
   margin-top: 3rem;
-  padding: 0rem .5rem 0rem .5rem;
+  padding: 0 .5rem;
 }
 
 @media only screen and (min-width: 48rem) {
@@ -434,7 +441,7 @@ body {
 }
 
 .product__related-subject {
-  margin: .5rem 0rem .5rem 0rem;
+  margin: .5rem 0;
   color: #111;
   font-weight: normal;
   font-size: 1rem;
@@ -452,7 +459,7 @@ body {
 }
 
 .product__more {
-  margin: 0rem .5rem 0rem .5rem;
+  margin: 0rem .5rem;
 }
 
 @media only screen and (min-width: 48rem) {
